@@ -6,4 +6,4 @@
 - 💬 Ask me about game and backend dev.
 - 📫 How to reach me: mail@farukcan.net
 - 😄 Pronouns: faurouk
-- ⚡ Fun fact: world is not flat
+- ⚡ Fun fact: Earth is not flat

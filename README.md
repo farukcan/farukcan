@@ -6,4 +6,4 @@
 - 📫 How to reach me: mail@farukcan.net
 - 😄 Pronouns: faurouk
 - ⚡ Fun fact: You can commit PR to farukcan/farukcan
-- Check my website : https://farukcan.net
+- Check my website : https://farukcan.net (english site farukcan.dev is com'in soon)

@@ -1,5 +1,5 @@
 # .github/workflows/scheduled-builds.yml
-name: Test Website
+name: Test Websites
 on:
   push:
     branches:
@@ -9,7 +9,7 @@ on:
     - cron: '0 0 * * *'
 jobs:
   build:
-    name: Trigger Site Rebuild
+    name: Testing websites
     runs-on: ubuntu-latest
     steps:
       - name: Test farukcan.net

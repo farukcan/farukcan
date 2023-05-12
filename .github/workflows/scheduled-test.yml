@@ -1,4 +1,3 @@
-# .github/workflows/scheduled-builds.yml
 name: Test Websites
 on:
   push:
@@ -8,14 +7,16 @@ on:
     # Runs “At 00:00” - crontab.guru
     - cron: '0 0 * * *'
 jobs:
-  build:
+  test:
     name: Testing websites
     runs-on: ubuntu-latest
     steps:
       - name: Test farukcan.net
-        run: wget -p https://farukcan.net
+        run: |
+          wget -p https://farukcan.net
       - name: Test farukcan.dev
-        run: wget -p https://farukcan.dev
+        run: |
+          wget -p https://farukcan.dev
       - name: Send Notification
         if: failure()
         run:  |

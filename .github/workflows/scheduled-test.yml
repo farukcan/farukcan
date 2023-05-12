@@ -16,9 +16,7 @@ jobs:
         run: wget -p https://farukcan.net
       - name: Test farukcan.dev
         run: wget -p https://farukcan.dev
-      - name: Test errorsample56754654.dev
-        run: wget -p https://errorsample56754654.dev
       - name: Send Notification
         if: failure()
         run:  |
-          curl -X POST -d '{"body":"body test", "title":"title test"}' -H "Content-Type: application/json"  ${{ secrets.APPRISE_URL }}
+          curl -X POST -d '{"body":"Check github.com/farukcan/farukcan", "title":"Alert! Website down!"}' -H "Content-Type: application/json"  ${{ secrets.APPRISE_URL }}

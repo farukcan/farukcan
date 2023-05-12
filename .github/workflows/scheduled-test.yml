@@ -10,6 +10,6 @@ jobs:
     name: Trigger Site Rebuild
     runs-on: ubuntu-latest
     steps:
-      - name: cURL request
+      - name: Test farukcan.net
         # Hit the webhook endpoint to rebuild  from the "main" branch
-        run: curl -X GET https://farukcan.net
+        run: wget -p https://farukcan.net

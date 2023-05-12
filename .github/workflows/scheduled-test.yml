@@ -20,4 +20,5 @@ jobs:
         run: wget -p https://errorsample56754654.dev
       - name: Send Notification
         if: failure()
-        run:  curl -X POST -d '{"body":"body test", "title":"title test"}' ${{ secrets.APPRISE_URL }}
+        run:  |
+          curl -X POST -d '{"body":"body test", "title":"title test"}' -H "Content-Type: application/json"  ${{ secrets.APPRISE_URL }}

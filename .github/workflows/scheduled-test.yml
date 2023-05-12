@@ -16,3 +16,13 @@ jobs:
         run: wget -p https://farukcan.net
       - name: Test farukcan.dev
         run: wget -p https://farukcan.dev
+      - name: Test errorsample56754654.dev
+        run: wget -p https://errorsample56754654.dev
+      - name: Send Notification
+        if: failure()
+        uses: cstuder/apprise-ga@master
+        with:
+          title: "Alert! Website down!"
+          message: "Check github.com/farukcan/farukcan for details."
+        env:
+          APPRISE_URL: ${{ secrets.APPRISE_URL }}

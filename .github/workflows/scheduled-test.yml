@@ -13,5 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test farukcan.net
-        # Hit the webhook endpoint to rebuild  from the "main" branch
         run: wget -p https://farukcan.net
+      - name: Test farukcan.dev
+        run: wget -p https://farukcan.dev
+      - name: Test Error
+        run: wget -p https://farukcerroran.dev

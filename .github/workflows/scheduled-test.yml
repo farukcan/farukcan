@@ -1,7 +1,9 @@
 # .github/workflows/scheduled-builds.yml
-name: Test farukcan.net
-
+name: Test Website
 on:
+  push:
+    branches:
+      - master
   schedule:
     # Runs “At 00:00 on Sunday.”
     - cron: '0 0 * * SUN'

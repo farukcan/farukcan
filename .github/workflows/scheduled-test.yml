@@ -5,8 +5,8 @@ on:
     branches:
       - master
   schedule:
-    # Runs “At 00:00 on Sunday.”
-    - cron: '0 0 * * SUN'
+    # Runs “At 00:00” - crontab.guru
+    - cron: '0 0 * * *'
 jobs:
   build:
     name: Trigger Site Rebuild
@@ -16,5 +16,3 @@ jobs:
         run: wget -p https://farukcan.net
       - name: Test farukcan.dev
         run: wget -p https://farukcan.dev
-      - name: Test Error
-        run: wget -p https://farukcerroran.dev

@@ -5,4 +5,3 @@
 - 💬 Ask me about game and backend dev.
 - 😄 Pronouns: faurouk
 - ⚡ Fun fact: You can commit PR to farukcan/farukcan
-- Check my website : farukcan.dev

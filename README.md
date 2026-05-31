@@ -15,8 +15,6 @@
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=farukcan&theme=tokyonight&hide_border=true)
 
-![Trophy](https://github-profile-trophy.vercel.app/?username=farukcan&theme=tokyonight&no-frame=true&row=1)
-
 ### Languages
 ![CSharp](https://img.shields.io/badge/-C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)

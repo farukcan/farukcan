@@ -1,7 +1,7 @@
 <!-- Animasyonlu yazan başlık -->
 <h1 align="center">  
   <a href="https://git.io/typing-svg">    
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=I+am+Faruk+Can;+Productivity+Booster;Always+Learning+and+Growing;Let's+Optimize+Together" alt="Typing SVG" />  
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Faruk+Can+Is+Here;+Lets+Make+World+More+Productivity;Always+Learning+and+Growing;Let's+Optimize+Together" alt="Typing SVG" />  
   </a>
 </h1>
 

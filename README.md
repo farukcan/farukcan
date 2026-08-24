@@ -21,7 +21,6 @@
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=farukcan&layout=compact&theme=tokyonight&hide_border=true)
 
 ### Backend & Frameworks
 ![Unity](https://img.shields.io/badge/-Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
